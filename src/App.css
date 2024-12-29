@@ -1,3 +1,29 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  margin: 5px 10px;
+}
+.navlogo img{
+  width: 100px;
+}
+.top-navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(244, 250, 248);
+  padding: 10px;
+}
+.search-box input{
+  padding: 10px 100px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-color: rgb(175, 175, 175);
+}
+.Addcart-icon h2{
+  color: green;
+  margin-top: 10px;
+  font-size: 30px;
+  cursor: pointer;
 }

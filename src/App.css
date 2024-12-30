@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
 }
 .App{
   margin: 5px 10px;
@@ -12,18 +13,45 @@
 .top-navbar{
   display: flex;
   justify-content: space-between;
-  background-color: rgb(244, 250, 248);
+  background-color: rgb(198, 255, 207);
   padding: 10px;
 }
 .search-box input{
-  padding: 10px 100px;
+  padding: 10px 200px;
   margin-top: 10px;
   border-radius: 10px;
-  border-color: rgb(175, 175, 175);
+  border: none;
+}
+.search-box input::placeholder{
+  letter-spacing: 2px;
+  color: green;
+}
+.Addcart-icon{
+  display: flex;
 }
 .Addcart-icon h2{
   color: green;
   margin-top: 10px;
-  font-size: 30px;
+  font-size: 25px;
   cursor: pointer;
+  margin-left: 1rem;
+}
+.nav-links{
+  background-color: rgb(14, 80, 14);
+}
+.nav-links ul li{
+  list-style-type: none;
+}
+.nav-links ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.nav-links ul{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 10px;
+}
+
+.banner-container img{
+  width: 100%;
 }

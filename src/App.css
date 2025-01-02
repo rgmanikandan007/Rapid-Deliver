@@ -20,7 +20,7 @@
   padding: 10px 200px;
   margin-top: 10px;
   border-radius: 10px;
-  border: none;
+  /* border: none; */
 }
 .search-box input::placeholder{
   letter-spacing: 2px;
@@ -56,6 +56,15 @@
 /* Banner start */
 .banner-container img{
   width: 100%;
+}
+.sub-banner{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.sub-banner img{
+  width: 30%;
 }
 /* Banner End */
 

@@ -58,8 +58,7 @@
   width: 100%;
 }
 .sub-banner{
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin: 2rem 2rem;
   display: flex;
   justify-content: space-around;
 }
@@ -67,6 +66,16 @@
   width: 30%;
 }
 /* Banner End */
+
+/* Main Product Start */
+.mainproduct-container{
+  margin: 2rem 2rem;
+}
+.mainproduct-container img{
+  width: 10%;
+  cursor: pointer;
+}
+/* Main Product End */
 
 
 

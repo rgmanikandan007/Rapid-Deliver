@@ -7,7 +7,6 @@ import Tooltip from '@mui/material/Tooltip';
 
 function Navbar() {
 
-
   return (
     <div className='navbar-container'>
       <div className='top-navbar'>
@@ -28,9 +27,13 @@ function Navbar() {
           <Tooltip title="Login" placement="left-start">
             <h2><TbLogin2 /></h2>
           </Tooltip>
-          <h2><MdAddShoppingCart /></h2>
+          <Tooltip title="Cart" placement="left-start">
+            <h2><MdAddShoppingCart /></h2>
+          </Tooltip>
         </div>
       </div>
+
+      
 
       <div className='bottom-nav'>
         <div className='nav-links'>

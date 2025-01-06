@@ -38,8 +38,7 @@ function Navbar() {
       <div className='bottom-nav'>
         <div className='nav-links'>
           <ul>
-            <li><a href='#'>Vegetables</a></li>
-            <li><a href='#'>Fruits</a></li>
+            <li><a href='#'>Vegetables & Fruits</a></li>
             <li><a href='#'>Dairy & Breakfast</a></li>
             <li><a href='#'>Masala & Oil</a></li>
             <li><a href='#'>Atta & Rice</a></li>

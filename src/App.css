@@ -126,3 +126,25 @@
   margin-left: 1rem;
 }
 /* Footer End */
+
+
+
+
+
+/* Vegfruits Start */
+.vegfruits-container{
+  margin: 1rem 0.5rem;
+}
+.left-vegfruits img{
+  width: 50px;
+}
+.side-products{
+  display: flex;
+  background-color: rgb(240, 255, 255);
+  margin-top: 5px;
+  width: 20%;
+}
+.side-products h4{
+  margin: 20px 10px;
+}
+/* Vegfruits End */

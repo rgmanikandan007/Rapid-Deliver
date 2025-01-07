@@ -4,6 +4,7 @@ import { MdAddShoppingCart } from "react-icons/md";
 import { TbLogin2 } from "react-icons/tb";
 
 import Tooltip from '@mui/material/Tooltip';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
 
@@ -11,7 +12,7 @@ function Navbar() {
     <div className='navbar-container'>
       <div className='top-navbar'>
         <div className='navlogo'>
-          <img src={Navlogo} />
+          <Link to="/"><img src={Navlogo} /></Link>
         </div>
 
         <div className='deliver-time'>
@@ -33,12 +34,12 @@ function Navbar() {
         </div>
       </div>
 
-      
+
 
       <div className='bottom-nav'>
         <div className='nav-links'>
           <ul>
-            <li><a href='#'>Vegetables & Fruits</a></li>
+            <li><Link to='/vegfruits'>Vegetables & Fruits</Link></li>
             <li><a href='#'>Dairy & Breakfast</a></li>
             <li><a href='#'>Masala & Oil</a></li>
             <li><a href='#'>Atta & Rice</a></li>
